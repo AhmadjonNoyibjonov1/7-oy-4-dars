@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .light-mode {
+    background-color: white;
+    height: 1000px;
+    color: black;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    height: 1000px;
+    color: white;
+  }
+  
+  .toggle {
+    cursor: pointer;
+  }
+  
