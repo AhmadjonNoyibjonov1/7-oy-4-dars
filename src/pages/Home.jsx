@@ -8,7 +8,11 @@ function Home() {
   useEffect(() => {
     fetch("https://strapi-store-server.onrender.com/api/products?featured=true")
       .then((res) => res.json())
-      .then((data) => setData(data.data));
+      .then((data) => setData(data.data))
+      .catch((Error) => {
+        console.log(Error);
+        
+      })
   }, []);
 
   const handleClick = (id) => {

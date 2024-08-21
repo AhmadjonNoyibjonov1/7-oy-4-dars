@@ -14,7 +14,7 @@ function Products() {
   if (!product) {
     return <div>Loading...</div>;
   }
-
+  
   return (
     <div className="container mx-auto px-8 mb-10">
       <div className="mt-6 grid gap-y-8 lg:grid-cols-2 lg:gap-x-16">
