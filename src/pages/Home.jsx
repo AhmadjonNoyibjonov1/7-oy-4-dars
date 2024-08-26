@@ -26,6 +26,7 @@ function Home() {
   
   return (
     <div>
+      
       <div className="container px-8 py-20 mx-auto max-w-6xl flex justify-between">
         <div className="max-w-lg flex flex-wrap items-center">
           <h1 className="max-w-2xl text-4xl font-bold tracking-tight sm:text-6xl text-slate-700 mt-5">
